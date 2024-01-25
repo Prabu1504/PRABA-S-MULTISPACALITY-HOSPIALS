@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <title>Prabas Hospital</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="icon" href="image/P.jpg">
+    <style>
+        body{
+            background-image: url(/image/in.back.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .smt {
+            margin: 2px;
+            padding: 2px;
+            width: 70px;
+            height: 30px;
+            position: relative;
+            top:40px;
+            right: 40px;
+            box-shadow: 2px 3px #02f50e;
+            font-size: 12px;
+            font-weight: bold;
+            background-color: white;
+            border: 2px solid green;
+            border-radius: 9px;
+
+        }
+
+        .smt:hover {
+            background-color: #18f504;
+        }
+
+        .cnl {
+            margin: 10px;
+            padding: 2px;
+            width: 70px;
+            height: 30px;
+            position: relative;
+            left: 90px;
+            top:40px;
+            box-shadow: 2px 3px #ff0505;
+            font-size: 12px;
+            font-weight: bold;
+            background-color: white;
+            border: 2px solid red;
+            border-radius: 9px;
+
+        }
+
+        .cnl:hover {
+            background-color: red;
+
+        }
+
+        .full {
+            text-align: center;
+        }
+
+        .Sign-Up {
+            border: 2px solid red;
+            width: 500px;
+            height: auto;
+            position: relative;
+            left: 520px;
+            top: 120px;
+            border-radius: 29px;
+        box-shadow: 5px 5px 5px red;
+        }
+
+        .head {
+            color: #ff0505;
+            font-weight: bold;
+            text-shadow: 1px 2px red;
+            position: relative;
+            top: 25px;
+            left: 190px;
+            text-decoration: underline;
+
+        }
+
+        .full {
+            position: relative;
+            bottom: 100px;
+            left: 40px;
+            font-weight: bold;
+            font-size: 20px;
+            
+
+        }
+
+        input {
+            font-size: 20px;
+        }
+
+        .male {
+            display: inline;
+        }
+
+        .Female {
+            display: inline;
+        }
+        label  {
+            text-align: left;
+           
+        }
+        input{
+            align-self: center;
+        }
+    </style>
+
+<body>
+    <div class="Sign-Up">
+        <h2 class="head">Sign Up</h2>
+        <div class="full">
+            <form action="">
+                <table>
+                    <tr>
+                        <td>
+                            <label for="Username">Username :</label>
+                            <input type="text" id="Username">
+
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="password">Password :</label>
+                            <input type="password">
+
+                        </td>
+                    </tr><br><br>
+                    <tr>
+                        <td>
+                            <label for="email">Email :</label>
+                            <input type="email" id="email">
+
+                        </td>
+                    </tr><br>
+                    <tr>
+                        <td>
+                            <label for="mobile">Mobile Number :</label>
+                            <input type="number" id="mobile">
+
+                        </td>
+                    </tr><br>
+                    <tr>
+                        <td>
+                            <div class="gender"><label class="gender" for="gender">Gender :</label>
+                                <div class="male"><input type="radio" id="male">Male</div>
+                                <div class="Female"><input type="radio" id="female">Female</div>
+                            </div>
+
+                        </td>
+                    </tr><br>
+                    <tr>
+                        <td>
+                            <label for="dob">Date Of Birth :</label>
+                            <input type="date" id="dob">
+
+                        </td>
+                    </tr><br>
+                    <tr>
+                        <td>
+                            <label for="location">location :</label>
+                            <input type="search" id="location">
+
+                        </td>
+                    </tr><br>
+                    <tr>
+                        <td>
+                            <label for="pincode">Pin code :</label>
+                            <input type="number" id="pincode">
+
+                        </td>
+                    </tr>
+        </div><br>
+        <tr>
+            <td>
+                <div class="btn">
+                    <a href=""> <button class="smt">Submit</button></a>
+                    <a href=""><button class="cnl">Cancel</button></a>
+                </div>
+            </td>
+        </tr>
+
+
+    </div>
+    </table>
+    </form>
+    </div>
+</body>
+
+</html>

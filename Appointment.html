@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <title>Prabas Hospital</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="icon" href="image/P.jpg">
+    <style>
+        body {
+            background-image: url(/image/sign3.jpg);
+            background-repeat: no-repeat;
+        }
+
+        h2 {
+            font-size: 30px;
+            color: rgb(250, 0, 0);
+            font-style: italic;
+
+            text-shadow: 5px 5px 5px gray;
+
+        }
+
+        body div select #id .Department {
+            background-color: brown;
+
+        }
+
+        .butten1 {
+            margin-top: 40px;
+            background-color: green;
+            position: relative;
+            left: 30%;
+            right:70%;
+
+
+
+        }
+
+        .butten2 {
+            margin-top: 40px;
+            background-color:red;
+            position: relative;
+            left: 50%;
+            right: 50%;
+
+
+
+        }
+
+
+        .butten1:hover {
+            background-color: blueviolet;
+            transition: 1s;
+            box-shadow: 5px 5px 2px;
+
+        }
+
+        .butten1:active {
+            background-color: red;
+            padding: 5px 5px;
+
+        }
+
+        .container {
+            margin: 50px;
+            padding: 10px;
+            background-color: cornflowerblue;
+            border: 2px solid rgba(14, 77, 195, 0.638);
+            justify-items: center;
+            width: 500px;
+            height: 300px;
+        }
+
+
+
+        .OTP {
+            background-color: rgb(0, 0, 255);
+            font-weight: bolder;
+            margin: 2px;
+            font-size: 14px;
+            box-shadow: 2px 5px 5px;
+        }
+
+        .OTP:hover {
+            background-color: darkmagenta;
+            transition: 1s;
+            box-shadow: 3px 5px 5px;
+
+        }
+        .textcontainer {
+            color: rgb(8, 0, 255);
+            text-align: center;
+            font-family: cursive;
+            text-shadow: 3px 3px 3px;
+            position: relative;
+            bottom: 300px;
+            left: 170px;
+
+        }
+
+    </style>
+</head>
+
+<body>
+    <marquee behavior="scroll" direction="left">
+        <h2 class="marque">Book Appointment Book Appointment Book Appointment Book Appointment Book Appointment</h2>
+    </marquee>
+
+    <div class="container">
+        <form>
+            <label for="Department">Select a Department:</label>
+            <select id="Department">
+                <option value="Cardiology"> </option>
+                <option value="Cardiology"> Cardiology</option>
+                <option value="Orthopedics">Orthopedics</option>
+                <option value="Oncology">Oncology</option>
+                <option value="Gastroenterology">Gastroenterology</option>
+                <option value="Nephrology">Nephrology</option>
+                <option value="Robotic Surgery">Robotic Surgery</option>
+                <option value="Bariatric Surgery">Bariatric Surgery</option>
+            </select>
+            <br><br>
+            <label for="Name">Name:</label>
+            <input type="text" id="Name" name="Name" required>
+
+            <br><br>
+            <label for="Phone Number">Phone Number:</label>
+            <input type="Phone Number" id="Phone Number" name="Phone Number">
+            <button class="OTP" type="button">Request OTP</button>
+
+            <br><br>
+            <label for="Email">Email:</label>
+            <input type="Email" id="Email" name="Email" required>
+            <button class="OTP" type="button">Request OTP</button>
+            <br><br>
+            <label for="Country">Country:</label>
+            <select id="Country" name="Country">
+                <option value="India"> India</option>
+
+            </select>
+            <br><br>
+            <label for="Place">Select a state:</label>
+            <select id="Place" name="Place">
+                <option value="Tamil Nadu"> </option>
+                <option value="Tamil Nadu"> Tamil Nadu</option>
+                <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                <option value="Assam">Assam</option>
+                <option value="Bihar">Bihar</option>
+                <option value="Chattisgarh">Chattisgarh</option>
+                <option value="Goa">Goa</option>
+                <option value="Gujarat">Gujarat</option>
+                <option value="Haryana">Haryana</option>
+                <option value="Himachal Pradesh">Himachal Pradesh</option>
+                <option value="Jharkhand"> Jharkhand</option>
+                <option value="Karnataka">Karnataka</option>
+                <option value="Kerala">Kerala</option>
+                <option value="Madhya Pradesh">Madhya Pradesh</option>
+                <option value="Maharashtra">Maharashtra</option>
+                <option value="Manipur">Manipur</option>
+                <option value="Meghalaya">Meghalaya</option>
+                <option value="Mizoram">Mizoram</option>
+                <option value="Odisha">Odisha</option>
+                <option value="Punjab">Punjab</option>
+                <option value="Rajasthan">Rajasthan</option>
+                <option value="Sikkim">Sikkim</option>
+                <option value="Andhra Pradesh">Andhra Pradesh </option>
+                <option value="Telangana">Telangana</option>
+                <option value="Tripura">Tripura</option>
+                <option value="Uttar Pradesh">Uttar Pradesh</option>
+            </select>
+
+
+
+
+            <br>
+            <div class="style">
+                <button class="butten1" type="submit">Submit</button>
+                <button class="butten2" type="submit">Cancel</button>
+            </div>
+
+        </form>
+    </div>
+    <div class="textcontainer">
+        <h1>The power of community <br>
+            to <br>
+            create health is far greater than any physician,<br>
+            clinic or hospital.</h1>
+    </div>
+</body>
+
+</html>

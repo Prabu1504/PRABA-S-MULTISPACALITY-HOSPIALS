@@ -1,0 +1,305 @@
+/* this is index page */
+body {
+    font-optical-sizing: 10px;
+    font-style: italic;
+    background-size: cover;
+    background-image: url(/image/pexels-pixabay-269077.jpg);
+    overflow-x: hidden;
+
+
+ }
+
+ .normal {
+    text-align: start;
+
+ }
+
+ .head {
+    padding: 20px;
+    font-size: 40px;
+ }
+
+ .logo {
+    size: 50px;
+ }
+
+ #headline {
+    margin: 15px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: gray;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px gray;
+    word-spacing: 55px;
+    text-align: center;
+ }
+ #headline:active
+ {
+    background-color: yellowgreen;
+ }
+ 
+
+ #headline a:hover {
+    background-color:yellowgreen;
+   
+ }
+
+ .a {
+    display: block;
+    color: red;
+    text-align: center;
+    padding: 13px 13px;
+    text-decoration: none;
+ }
+
+
+ .In {
+    color: #b2fc05;
+    border: 1px solid red;
+    border-radius: 50px 50px;
+    padding: 10px;
+    background-color: transparent;
+    text-shadow: 2px 2px gray;
+    position: absolute;
+    left: 90%;
+    font-size: 20px;
+
+
+ }
+
+ .In:hover {
+    background-color: red;
+ }
+
+ .Up {
+    color: #b2fc05;
+    border: 1px solid red;
+    border-radius: 50px 50px;
+    padding: 10px;
+    background-color: transparent;
+    text-shadow: 2px 2px gray;
+    position: absolute;
+    left: 80%;
+    font-size: 20px;
+
+
+ }
+ .Up:hover{
+    background-color:red;
+ }
+ /* this is the service page */
+
+ body {
+       margin: 20px;
+       font-family: sans-serif;
+       
+   }
+
+   .selector h1 {
+       margin: 0;
+       color: #111;
+       text-align: center;
+       font-size: medium;
+   }
+
+   
+   
+
+   .selector img {
+       width: 60%;
+       border: 1px solid #111;
+       border-radius: 10px 10px;
+
+   }
+
+   .selector {
+       background-color: whitesmoke;
+       display: flex;
+       /* justify-content:space-evenly; */
+       padding: 10px;
+       width: 200px;
+       height: 110px;
+       border: 2px solid darkgray;
+       border-radius: 20px 20px;
+       box-shadow: 4px 4px 4px gray;
+       
+   }
+
+   .grid-container {
+       display:flex;
+       flex-wrap:wrap;
+       gap: 16px;
+      
+
+   }
+   a{
+ text-decoration: none;
+   }
+
+   #Veiw {
+       justify-content: flex-end;
+   }
+   
+
+   /* this page are appointment */
+   .apt{
+    text-align: center;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+       color: #001164;
+       text-shadow: 3px 3px 3px #001164;
+ }
+   h2 {
+       font-size: 30px;
+       color: rgb(250, 0, 0);
+       font-style: italic;
+       text-shadow: 5px 5px 5px gray;
+
+   }
+
+   body div select #id .Department {
+       background-color: brown;
+
+   }
+
+   .butten1 {
+    width: 90px;
+       height: 35px;
+       margin-top: 40px;
+       background-color: green;
+       position:absolute;
+       left: 19%;
+   }
+
+   .butten2 {
+       width: 90px;
+       height: 35px;
+       margin-top: 40px;
+       background-color:red;
+       position:absolute;
+      
+       right: 55%;
+
+
+
+   }
+
+
+   .butten1:hover {
+       background-color: green;
+       transition: 1s;
+       box-shadow: 5px 5px 2px;
+
+   }
+
+   .butten1:active {
+       background-color: red;
+       padding: 5px 5px;
+
+   }
+   .butten2:hover {
+       background-color: red;
+       transition: 1s;
+       box-shadow: 5px 5px 2px;
+
+   }
+
+   .butten2:active {
+       background-color: red;
+       padding: 5px 5px;
+
+   }
+
+   .container {
+       margin: 100px;
+       padding: 50px;
+       background-color: rebeccapurple;
+       border: 2px solid rgba(14, 77, 195, 0.638);
+       justify-items: center;
+       width: 700px;
+       height: 300px;
+       
+   }
+
+
+
+   .OTP {
+       background-color: rgb(0, 0, 255);
+       font-weight: bolder;
+       margin: 2px;
+       font-size: 14px;
+       box-shadow: 2px 5px 5px;
+   }
+
+   .OTP:hover {
+       background-color: darkmagenta;
+       transition: 1s;
+       box-shadow: 3px 5px 5px;
+
+   }
+   /* this page is the contact page */
+   .add {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    width: 40%;
+    position: relative;
+    left: 80px;
+    top: 45px;
+    
+}
+
+.box {
+    font-style: italic;
+
+    padding: 10px;
+
+}
+
+.contact {
+    text-align: center;
+    font-style: italic;
+    color: blueviolet;
+    text-decoration: underline;
+    text-shadow: 2px 2px 4px;
+}
+
+.address {
+   
+    position: relative;
+    top: 100px;
+    left: 300px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.photo{
+        border: 4px solid #2f2bba;
+        width: 283px;
+       height: 364px;
+       color: black;
+        border-radius: 10px 10px;
+        box-shadow: 7px 7px 7px #2f2bba;
+        position:relative;
+        left: 70%;
+        bottom: 390px;
+        opacity:-1;
+    }
+    .photo:hover{
+        opacity: 4;
+    }
+    .red{
+        color: #111;
+        position: relative;
+        left: 1090px;
+        bottom: 492px;
+        font-size: 19px;
+      
+    }
+    .cont{
+        margin: 10px;
+        padding: 20px;
+        border: 1px solid red;
+        border-radius: 20px;
+        box-shadow: 5px 5px 5px brown;
+        height: 650px;
+        width: 1500px;
+        
+     }

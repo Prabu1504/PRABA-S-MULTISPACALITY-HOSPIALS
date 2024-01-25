@@ -1,0 +1,77 @@
+/* THIS PAGE IS THE SERVICE TYPE PAGE */
+.Bariatric {
+    border: 2px solid green;
+    width: 900px;
+    height: auto;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+.bim {
+    margin-top: 50px;
+    border: 1px solid black;
+
+}
+
+.head1 {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.Bpara {
+    margin: 10px;
+    padding: 10px;
+    color: grey;
+}
+
+.Bhead {
+    text-transform: uppercase;
+}
+
+.head3 {
+    color: blue;
+    text-transform: uppercase;
+}
+
+.head4 {
+    color: black;
+    text-transform: uppercase;
+}
+
+.specialist {
+    position: absolute;
+    top: 15%;
+    left: 72%;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.names {
+    position: absolute;
+    top: 47%;
+    left: 72%;
+}
+
+.namess {
+    position: absolute;
+    top: 52%;
+    left: 72%;
+}
+
+.bookap {
+    position: absolute;
+    top: 64%;
+    left: 80%;
+    box-shadow: 4px 4px 4px grey;
+
+
+}
+
+.bookap:hover {
+    background-color: yellowgreen;
+    box-shadow: 4px 4px 4px grey;
+
+
+}
